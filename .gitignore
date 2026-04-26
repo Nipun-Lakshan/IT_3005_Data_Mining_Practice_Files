@@ -1,0 +1,8 @@
+# Ignore everything in root
+/*
+
+# Allow only Python files in root
+!/*.py
+
+# Allow .gitignore itself
+!.gitignore
