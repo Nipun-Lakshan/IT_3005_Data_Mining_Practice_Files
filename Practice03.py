@@ -10,7 +10,7 @@ import pandas as pd
 import seaborn as sns
 
 # Load Data Set
-file_path = "Data Vis_student details.xlsx"
+file_path = r"A:\LMS\03. IT 3005\03. Datasets\01. Assignment 01\Data Vis_student details.xlsx"
 df = pd.read_excel(file_path, engine="openpyxl")
 df.info()
 

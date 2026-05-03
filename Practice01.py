@@ -10,7 +10,7 @@ import pandas as pd
 import seaborn as sns
 
 # Load Data Set
-file_path = "brain_details_EP.csv"
+file_path = r"A:\LMS\03. IT 3005\03. Datasets\01. Assignment 01\brain_details_EP.csv"
 df = pd.read_csv(file_path)
 df.info()
 
